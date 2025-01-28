@@ -1,8 +1,5 @@
 ### **Accident Prediction Using Machine Learning**  
  
-<img src="C:\Users\user\Downloads\OIP.png" height="auto" width="1200px">
-
-
 
 #### **Author Information**
 - **Author**: Usha Rahul  
