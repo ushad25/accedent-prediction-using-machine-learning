@@ -1,91 +1,101 @@
-# accedent-prediction-using-machine-learning
-### **Accident Prediction Using Machine Learning**
-Author: Usha rahul
-Date: 05/01/2025
-company: CodeTech IT Solutions
-inturn ID: CT0806HT
-Domain: Machine Learning
-Batch duration: december 30th 2024 to February 14th 2025
-Mentor name:Neela Santhosh Kumar
-#### **Table of Contents**
-1. [Overview](#overview)
-2. [Dataset](#dataset)
-3. [Project Workflow](#project-workflow)
-4. [Key Results](#key-results)
-5. [Technologies Used](#technologies-used)
-6. [Future Scope](#future-scope)
-7. [How to Use](#how-to-use)
+### **Accident Prediction Using Machine Learning**  
+ 
+<img src="C:\Users\user\Downloads\OIP.png" height="auto" width="1200px">
+
+
+
+#### **Author Information**
+- **Author**: Usha Rahul  
+- **Date**: January 5, 2025  
+- **Company**: CodeTech IT Solutions  
+- **Intern ID**: CT0806HT  
+- **Domain**: Machine Learning  
+- **Batch Duration**: December 30, 2024 – February 14, 2025  
+- **Mentor**: Neela Santhosh Kumar  
 
 ---
 
-### **Overview**
-This project involves building a machine learning model to predict road accidents based on traffic, vehicle, and driver-related attributes. The goal is to identify patterns that could help in reducing road accidents and improving safety measures.
+### **Table of Contents**
+1. 🌟 [Overview](#overview)  
+2. 📊 [Dataset](#dataset)  
+3. 🛠️ [Project Workflow](#project-workflow)  
+4. 🚦 [Key Results](#key-results)  
+5. 🧰 [Technologies Used](#technologies-used)  
+6. 🚀 [Future Scope](#future-scope)  
 
 ---
 
-### **Dataset**
-- **Source**: Simulated or real-world accident dataset.
-- **Features**:
-  - Traffic Density
-  - Speed Limit
-  - Number of Vehicles
-  - Driver Alcohol Consumption
-  - Driver Age
-  - Driver Experience
-- **Target Variable**: 
-  - `Accident` (0 = No Accident, 1 = Accident)
+### **🌟 Overview**  
+This project aims to develop a machine learning model for predicting road accidents based on driver behavior, traffic conditions, and vehicle-related factors. The results can help authorities implement targeted safety measures to reduce road accident rates effectively.  
 
 ---
 
-### **Project Workflow**
-1. **Exploratory Data Analysis (EDA)**:
-   - Statistical summary and visualizations to understand the dataset.
-2. **Data Preprocessing**:
-   - Addressed class imbalance using SMOTE.
-   - Encoded categorical variables.
-3. **Model Building**:
-   - Built and visualized a Decision Tree Classifier.
-   - Tuned hyperparameters using GridSearchCV.
-4. **Model Evaluation**:
-   - Metrics: Accuracy, Precision, Recall, F1-Score.
-   - Analyzed confusion matrix for minority and majority classes.
+### **📊 Dataset**  
+**Source**: Accident dataset with traffic, driver, and vehicle-related features.  
+**Key Features**:  
+- Traffic Density  
+- Speed Limit  
+- Number of Vehicles  
+- Driver Alcohol Consumption  
+- Driver Age  
+- Driver Experience  
+
+**Target Variable**:  
+- `Accident` (0 = No Accident, 1 = Accident)  
 
 ---
 
-### **Key Results**
-- **Accuracy**: 66.67%
-- **Precision (Minority Class)**: 26.92%
-- **Recall (Minority Class)**: 9.72%
-- **F1-Score (Minority Class)**: 14.29%
-- The model performed well for the majority class but struggled to identify accident cases due to class imbalance.
+### **🛠️ Project Workflow**  
+1. **Exploratory Data Analysis (EDA)**  
+   - Colorful visualizations for trend discovery.  
+   - Insights into class imbalance and feature significance.  
+
+2. **Data Preprocessing**  
+   - Categorical features encoded using **Label Encoding**.  
+   - Balanced class distribution with **SMOTE**.  
+
+3. **Model Development**  
+   - Built and visualized a **Decision Tree Classifier**.  
+   - Hyperparameter tuning via **GridSearchCV** for better predictions.  
+
+4. **Model Evaluation**  
+   - Assessed Accuracy, Precision, Recall, F1-Score, and Confusion Matrix.  
 
 ---
 
-### **Technologies Used**
-- **Python Libraries**:
-  - Pandas
-  - NumPy
-  - Matplotlib
-  - Seaborn
-  - Scikit-learn
-  - Imbalanced-learn
-- **Tools**:
-  - Jupyter Notebook
-  
----
--**images
-![image](https://github.com/user-attachments/assets/32173f77-0589-42be-95a6-73d7d0b85273)
-![image](https://github.com/user-attachments/assets/6b1bbdac-35d2-4d57-91b2-cc4f2e3334a0)
-![image](https://github.com/user-attachments/assets/9b122b78-6e8b-4b88-911f-bf2187b4d2ae)
-![image](https://github.com/user-attachments/assets/690d62b9-aa11-4e58-b903-f53ea7b50826)
-![image](https://github.com/user-attachments/assets/c9e37cc9-176e-4487-8f09-11a5a7cea567)
+### **🚦 Key Results**  
+- **Accuracy**: 66.67%  
+- **Precision (Minority Class)**: 26.92%  
+- **Recall (Minority Class)**: 9.72%  
+- **F1-Score (Minority Class)**: 14.29%  
 
-
-### **Future Scope**
-1. Experiment with advanced models like **Random Forest**, **XGBoost**, or **LightGBM**.
-2. Add features like weather conditions and road infrastructure details.
-3. Develop a real-time prediction system integrated with GPS and traffic data.
+**Confusion Matrix**:  
+🟥 **True Negatives (161)** | 🟨 **False Positives (19)**  
+🟩 **False Negatives (65)** | 🟦 **True Positives (7)**  
 
 ---
 
+### **🧰 Technologies Used**  
+- **Programming**: Python  
+- **Libraries**:  
+  - 🐼 Pandas  
+  - 🔢 NumPy  
+  - 📈 Matplotlib & Seaborn  
+  - 🧠 Scikit-learn  
+  - ⚖️ Imbalanced-learn  
+- **Tools**: Jupyter Notebook  
 
+---
+
+### **🚀 Future Scope**  
+1. Experiment with advanced machine learning algorithms like **XGBoost** or **LightGBM**.  
+2. Include features like weather conditions and road quality for holistic predictions.  
+3. Build a real-time accident prediction dashboard.  
+4. Leverage ensemble learning for robust results.  
+
+---
+
+
+
+### **Acknowledgment**  
+This project was completed under the mentorship of **Neela Santhosh Kumar** as part of the internship program at **CodeTech IT Solutions**.  
